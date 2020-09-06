@@ -57,7 +57,6 @@ public class App
     { 
     	Arrays.sort(cost); 
         int total = 0; 
-
         // Calculate minimum price of n-2 most costly person 
         for (int i = n - 1; i > 1; i -= 2) 
         { 
@@ -82,10 +81,7 @@ public class App
         { 
             total += cost[1]; 
         } 
-      
-        return total; 
+ 
+	return total; 
     } 
 }
-
-
-    
