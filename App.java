@@ -1,4 +1,3 @@
-package com.test.java.assessment;
 
 import java.util.ArrayList;
 import java.util.Arrays;
